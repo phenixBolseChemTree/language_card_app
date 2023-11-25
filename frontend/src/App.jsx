@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Dictionary, Login, MainPage, Signup } from "./components/pages";
-import Layout from './components/Layout'
+import Layout from "./components/Layout";
 
 function App() {
   return (
