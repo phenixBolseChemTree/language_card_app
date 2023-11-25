@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Layout } from "./components/Layout";
-import { Login, MainPage, Signup } from "./components/pages";
+import { Dictionary, Login, MainPage, Signup } from "./components/pages";
+import Layout from './components/Layout'
 
 function App() {
   return (
@@ -10,8 +10,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<MainPage />} />
-            <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
+            <Route path="login" element={<Login />} />
+            <Route path="dictionary" element={<Dictionary />} />
           </Route>
         </Routes>
       </BrowserRouter>

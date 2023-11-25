@@ -14,7 +14,7 @@ const Layout = () => {
               <Link to="/login">login</Link>
             </li>
             <li>
-              <Link to="/signup">signup</Link>
+              <Link to="/dictionary">dictionary</Link>
             </li>
           </ul>
         </nav>
@@ -27,4 +27,4 @@ const Layout = () => {
   )
 }
 
-export {Layout};
+export default Layout;
