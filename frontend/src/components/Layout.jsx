@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const Layout = () => {
   console.log(123);
-  return ( 
+  return (
     <>
       <header>
         <nav>
@@ -19,7 +19,7 @@ const Layout = () => {
           </ul>
         </nav>
       </header>
-    
+
       <main>
         <Outlet />
       </main>
